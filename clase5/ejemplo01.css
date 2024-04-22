@@ -1,0 +1,16 @@
+h1 {color: red; /*estos es un comentario en css cambio de color del h1*/
+background-color: yellow;/*color de fondo*/ text-align: center; 
+text-transform: uppercase /*lo transforma de minuscula a mayuscula*/;}
+p {color: green;}
+.destacados{ color: orange;
+font-weight: bold; 
+font-style: italic;
+font-size: 22px;}
+#azul { width: 350px;
+height:350px ;
+background-color: blue ;}
+#azul p, #rojo p {color: white;}
+#rojo { width: 350px;
+    height: 350px;
+    background-color: red; padding: 20px; box-sizing: border-box;
+border: 5px solid black; margin-left: 150px;}
