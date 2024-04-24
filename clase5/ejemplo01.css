@@ -14,3 +14,10 @@ background-color: blue ;}
     height: 350px;
     background-color: red; padding: 20px; box-sizing: border-box;
 border: 5px solid black; margin-left: 150px;}
+h3 {
+    color: blueviolet;
+}
+#violeta { width: 250px;
+height: 250px;
+background-color: violet; padding: 20px; box-sizing: border-box; border: 5px solid black; 
+margin-left: 150px;}
