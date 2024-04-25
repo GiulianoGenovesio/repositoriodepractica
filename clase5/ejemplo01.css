@@ -2,10 +2,10 @@ h1 {color: red; /*estos es un comentario en css cambio de color del h1*/
 background-color: yellow;/*color de fondo*/ text-align: center; 
 text-transform: uppercase /*lo transforma de minuscula a mayuscula*/;}
 p {color: green;}
-.destacados{ color: orange;
-font-weight: bold; 
-font-style: italic;
-font-size: 22px;}
+.destacados{ color: orange;/**/
+font-weight: bold; /*negrita*/
+font-style: italic;/*cursiva, estilo italica*/
+font-size: 22px; /*Tamaño*/}
 #azul { width: 350px;
 height:350px ;
 background-color: blue ;}
@@ -17,7 +17,7 @@ border: 5px solid black; margin-left: 150px;}
 h3 {
     color: blueviolet;
 }
-#violeta { width: 250px;
-height: 250px;
-background-color: violet; padding: 20px; box-sizing: border-box; border: 5px solid black; 
+#violeta { width: 250px;/*Ancho*/
+height: 250px;/*Alto*/
+background-color: violet /*Fondo*/; padding: 20px; box-sizing: border-box; border: 5px solid black; 
 margin-left: 150px;}
