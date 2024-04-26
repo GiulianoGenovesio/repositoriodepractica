@@ -1,13 +1,16 @@
 .caja{background-color: yellow;
-    width:250px ;
-    height:250px ;
-padding: 20px;
-box-sizing: border-box;
-border-radius: 50px;
-border-radius: 0px 50px;
-margin: 100px;
-box-shadow: 10px 20px 5px black;/*horizontal, vertical
+    width:250px /*ancho*/;
+    height:250px /*alto*/;
+padding: 20px /*separar el texto del borde de la caja*/;
+box-sizing: border-box /*mantener el ancho y que no se agrande*/;
+border-radius: 50px /*bordes redondeados*/;
+border-radius: 0px 50px /*va de izquierda a derecha 0px rpresenta de la punta a la izquirda superrior y 
+la punta derecha inferior, es decir en diagonal*/;
+margin: 100px /*para que en todos lados alrededor de la caja tenga espacio de 100 px*/;
+box-shadow: 10px 20px 5px black;/*sombras puede tener cuatro parametros: horizontal, vertical
 desenfocado y el color*/
 }
 .otra {color: white; background-color: blue; text-align: center;
+    width: 250px; height: 250px; padding: 20px; box-sizing: border-box;
+    border-radius: 5px 50px; margin: 100px; box-shadow: 5px 10px 20px red;
 }

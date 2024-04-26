@@ -20,4 +20,4 @@ h3 {
 #violeta { width: 250px;/*Ancho*/
 height: 250px;/*Alto*/
 background-color: violet /*Fondo*/; padding: 20px; box-sizing: border-box; border: 5px solid black; 
-margin-left: 150px;}
+margin-left: 150px; box-shadow: 10px 10px /*Sombra de la caja*/;}
