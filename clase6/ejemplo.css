@@ -1,3 +1,16 @@
+/**
+font-family: "Open Sans", sans-serif; font-family: "Pacifico", cursive; sans-serif; acá se llama la fuente que elegí para cambiar el formato de la letra*/
+
 .texto {
     background-color: yellow;
+    column-count: 2 /*Es para separar el texto que escribí en columnas*/;
+    column-gap: 60px /*Es para separar una columna de otra*/;
+    column-rule: 3px solid black /*En este caso es por si necesito colocar una linea entre las columnas*/;
+    text-align: center; color: green; box-shadow: 0px 26px 15px 2px rgba(0,0,0,0.75);
+}
+.texto p {margin: 0 /*Para quitar el margen del texto de las p con el color de las columnas*/;}
+h1, h2{ font-family: "Pacifico", cursive;}
+p {font-family: "Open Sans", sans-serif; }
+.iconos {
+    font-size: 50px; color: aqua;
 }
