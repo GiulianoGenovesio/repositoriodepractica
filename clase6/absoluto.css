@@ -5,7 +5,7 @@ margin: 0 auto; position: relative;}
     background-color: greenyellow;
 width: 70%;
 margin: 0 auto;
-height: 200%;
+height: 200px;
 margin-bottom: 20px;
 position: absolute;
 top: 0;
@@ -16,7 +16,7 @@ left: 0;
     background-color: lightblue;
     width: 70%;
     margin: 0 auto;
-    height: 200%;
+    height: 200px;
 margin-bottom: 20px;
 /*position: static;*/}
 
@@ -24,6 +24,6 @@ margin-bottom: 20px;
     background-color: yellow;
     width: 70%;
     margin: 0 auto;
-    height: 200%;
+    height: 200px;
 margin-bottom: 20px;
 /*position: static;*/}
