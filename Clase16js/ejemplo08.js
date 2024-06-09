@@ -1,16 +1,12 @@
-const items = document.getElementsByClassName('item');
+function ocultarMensaje(){
 
-function cambiarVisibilidad() {
+    const mensaje = document.getElementById('mesnaje');
 
-    const item = items[3];
+    mensaje.style.display = 'none'
+}
 
-    if (item.style.visibility == '') {
-        item.style.visibility = 'hidden'
-    } else {
-        item.style.visibility = ''
-    }
-} //salgo de la funcion
+//ocultarMensaje()
 
-setInterval(cambiarVisibilidad,100);
-// 500 es medio segundo
-//prende y apaga el item en 2 segundos
+setTimeout(ocultarMensaje,5000);
+//5000 > 5 segundos
+//se ejecuta 1 sola vez
