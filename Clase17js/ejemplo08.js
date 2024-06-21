@@ -19,4 +19,18 @@ const alumnos = [
         nombre: "Sandra",
         edad: 4
     },
+    {
+        nombre: "Pedro",
+        edad: 12
+    }
 ]
+
+console.log(alumnos)
+
+const chicos = alumnos.filter(alumno => alumno.edad >= 4);
+
+console.log(chicos)
+
+for(let i = 0; i < chicos.length; i++){
+    document.write(`<li> Niño: ${chicos[i].nombre}, cuya edad es ${chicos[i].edad}</li>`)
+}
